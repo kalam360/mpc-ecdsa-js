@@ -6,7 +6,7 @@ This is a demonstration of ECDSA distributed key generation and signing protocol
 
 ### Secret Sharing
 
-In this demo, [Shamir Secret Sharing(SSS)](https://en.wikipedia.org/wiki/Shamir's_Secret_Sharing) is used for parties to have *shares* without revealing secret information, such as secret key of EC, nonce `k` in signing protocol. A prime field is used for polinomial computations. This is a *k-out-of-n* protocol for any *n* and *k* satisfy *n <= 2k - 1*, where *n* is the total number of parties, and *k* is the number of honest parties.
+In this demo, [Shamir Secret Sharing(SSS)](https://en.wikipedia.org/wiki/Shamir's_Secret_Sharing) is used for parties to have *shares* without revealing secret information, such as secret key of EC, nonce `k` in signing protocol. A prime field is used for polinomial computations. This is a *k-out-of-n* protocol for any *n* and *k* satisfy *2k - 1 <= n*, where *n* is the total number of parties, and *k* is the minimum number of parties required to reconstruct secrets.
 
 ### Security
 
