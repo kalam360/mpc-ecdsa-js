@@ -41,7 +41,7 @@ This setting assumes *Semi-Honest* security model where all parties are expected
 
 MPC ECDSA key generation / signing protocols consits of sub MPC protocols.
 
-See [protcols page](./docs/protocols.md) for more details.
+See [this page](https://docs.google.com/document/d/1aLFarlFPMbIbQz8_XqiVkU2q53ohVqFaSLKC75kh4Rw/edit?usp=sharing) for more details.
 
 ## Development
 
